@@ -1,0 +1,21 @@
+.top-bar {
+  height: 56px;
+  width: 100%;
+  border-bottom: 2px black solid;
+  background-color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+button {
+    background: #0d1831;
+    color: #ffffff;
+    border: 1px solid #0d1831;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 3px;
+}

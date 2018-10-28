@@ -1,11 +1,27 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+import './Header.css'
 
-const Header = ({}) => {
+const Header = (props) => {
   const handleClick = () => {};
   return (
-    <div onClick={handleClick}>
-    Header</div>
+    <header>
+    <div className="top-bar">
+      <div class="logo">
+      LOGO
+      </div>
+      <div class="menu">
+      <Link to="/team">
+        <button>The team</button>
+      </Link>
+      <Link to="/matches">
+        <button>Matches</button>
+      </Link>
+      </div>
+    </div>
+    </header>
+
   );
 }
 
