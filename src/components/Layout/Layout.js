@@ -1,6 +1,7 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import Header from '../HeaderFooter/Header'
+import Footer from '../HeaderFooter/Footer'
 
 const Layout = (props) => {
   const handleClick = () => {};
@@ -14,6 +15,7 @@ const Layout = (props) => {
     <main>
     {props.children}
     </main>
+    <Footer />
     </React.Fragment>
   );
 }

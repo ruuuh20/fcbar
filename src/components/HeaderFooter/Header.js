@@ -1,16 +1,15 @@
 import React from 'react';
 // import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import './Header.css'
+import './Header.css';
+import Logo from '../Logo/Logo'
 
 const Header = (props) => {
   const handleClick = () => {};
   return (
     <header>
     <div className="top-bar">
-      <div class="logo">
-      LOGO
-      </div>
+    <Logo />
       <div class="menu">
       <Link to="/team">
         <button>The team</button>
